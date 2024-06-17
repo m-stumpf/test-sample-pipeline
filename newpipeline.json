@@ -3,9 +3,9 @@
     {
       "processScript": "purchprodnewsql.csql",
       "sendToSubscriptions": true,
-      "saveToCds": true,
-      "saveToRealtime": true,
-      "pipelineDescription": "Pipeline for the product & purchaseorder tables, that uses rejects empties and blanks values",
+      "saveToCds": false,
+      "saveToRealtime": false,
+      "pipelineDescription": "Pipeline for the product & purchaseorder tables, that uses source entity staging empty",
       "timeZone": "America/Sao_Paulo",
       "outputDataModelName": "mdmproduct",
       "saveToUnified": true,
@@ -18,16 +18,6 @@
         "dataModels": [
           {
             "dataModelName": "mdmproduct"
-          }
-        ],
-        "stagings": [
-          {
-            "connectorName": "nlp",
-            "stagingName": "product"
-          },
-          {
-            "connectorName": "nlp",
-            "stagingName": "purchaseorder"
           }
         ]
       }
