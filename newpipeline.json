@@ -9,6 +9,7 @@
       "timeZone": "America/Sao_Paulo",
       "outputDataModelName": "mdmproduct",
       "saveToUnified": true,
+      "tempTableRetentionPeriodDays": 1,
       "useBatchNotification": true,
       "cronExpressions": [
         "0 */01 * * * ?"
