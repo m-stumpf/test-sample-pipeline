@@ -14,7 +14,7 @@
       "cronExpressions": [
         "0 */01 * * * ?"
       ],
-      "overlapDeltaMinutes": 76,
+      "overlapDeltaMinutes": 120,
       "pipelineName": "newtask_sandbox",
       "sourceEntities": {
         "dataModels": [
