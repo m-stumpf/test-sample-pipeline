@@ -103,8 +103,9 @@
             "stagingName": "purchaseorder"
           }
         ]
-      },
-      {
+      }
+    },
+    {
       "pipelineName": "purchase_products",
       "pipelineDescription": "Pipeline to list purchase order table, that uses staging nlp_product with jOIN",
       "outputDataModelName": "mdmpurchaseproducts",
