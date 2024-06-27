@@ -19,7 +19,7 @@
       "saveToRealtime": true,
       "shouldFanOut":false,
       "sendToSubscriptions": false,
-      "useBatchNotification": false,
+      "useBatchNotification": true,
       "tempTableRetentionPeriodDays": 1,
       "cronExpressions": [
         "0 0/5 * ? * MON-FRI *",
